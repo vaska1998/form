@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="backgr">
+        <h1>LOGIN FORM UI</h1>
+        <div id="form">
+            <img src="img/yellow-road-i54303.jpg" width="400px" height='500px'>
+            <form method="post" id="ajax_form" action="" >
+                <input type="text" name="name" placeholder="Username" id="name" />
+                <input type="password" name="password" placeholder="Password" id="password"/>
+                <p class="forgot">Forgot password?</p>
+                <input type="button" id="btn" value="Login" />
+                <p class="reg">Don't have an account? <u id="startreg">Register</u></p>
+                <br>
+                <div id="result_form"></div>
+                <br>
+                <hr>
+                <p class="img">
+                <img src="img/free-icon-facebook-145802.png" width="64px" height="64px">
+                <img src="img/premium-icon-twitter-3955031.png" width="64px" height="64px">
+                <img src="img/free-icon-google-symbol-2875404.png" width="64px" height="64px">
+                </p>
+            </form>
+        </div>
+        <div id="reg">
+            <form method="post" id="ajax_formRegister" action="" >
+                <h3 class="h3">Sign up</h3>
+                <input type="text" name="name" placeholder="Username" id="nameReg"/>
+                <input type="text" name="email" placeholder="Email" id="email"/>
+                <input type="password" name="password" placeholder="Password" id="passwordReg"/>
+                <input type="password" name="retypepassword" placeholder="Retype password" id="passwordRet"/>
+                <div class="error"></div>
+                <input type="button" id="btnreg" value="SIGH ME UP">
+            </form>
+            <p class="or">OR</p>
+            <div id="regimg">
+            <p class="signin">Sign in with<br> social network</p>
+            <button id="facebook">Log in with Facebook</button>
+            <button id="twitter">Log in with Twitter</button>
+            <button id="google">Log in with Google+</button>
+            <div id="resultform"></div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

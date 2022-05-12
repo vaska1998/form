@@ -1,0 +1,160 @@
+#form, #reg{
+    margin: auto;
+    width: 900px;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+}
+#ajax_form, #ajax_formRegister{
+    margin-left: 50px;
+    margin-top: 50px;
+    padding-right: 15px;
+}
+#name{
+    width: 400px;
+    height: 44px;
+    border-radius: 5px;
+    font-size: 24px;
+    border: 1px solid gray;
+    background: url("img/user.png") no-repeat scroll 8px 16px;
+    padding-left:30px;
+}
+#password{
+    width: 400px;
+    height: 44px;
+    margin-top: 20px;
+    border-radius: 5px;
+    font-size: 24px;
+    border: 1px solid gray;
+    background: url("img/padlock.png") no-repeat scroll 8px 16px;
+    padding-left:30px;
+}
+.forgot{
+    text-align: right;
+    margin-top: 5px;
+    margin-bottom: 0;
+    color: gray;
+}
+#btn{
+    width: 434px;
+    height: 44px;
+    margin-top: 15px;
+    font-size: 24px;
+    background-color: #383838;
+    color: white;
+    border-radius: 5px;
+}
+.reg{
+    text-align: center;
+}
+#result_form{
+    text-align: center;
+}
+#ajax_form img{
+    margin-left: 15px;
+}
+.img{
+    padding-left: 70px;
+    padding-top: 30px;
+}
+h1{
+    text-align: center;
+    font-size: 96px;
+    color: #c2c2c2;
+    margin: 0;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-shadow: 1px 1px 2px black;
+}
+.backgr{
+    margin: 0;
+    background-color: #727377;
+    width: 1500px;
+    height: 1000px;
+}
+#nameReg, #email, #passwordReg, #passwordRet{
+    width: 400px;
+    height: 44px;
+    font-size: 24px;
+    border: 0px;
+    border-bottom: 1px solid #179F87;
+    margin-bottom: 5px;
+}
+.h3{
+    font-size: 40px;
+    font-weight: normal;
+}
+.signin{
+    font-size: 40px;
+    color: white;
+    text-align: center;
+    padding-top: 40px;
+}
+#btnreg{
+    width: 400px;
+    height: 44px;
+    margin-top: 40px;
+    font-size: 24px;
+    background-color: #179F87;
+    color: white;
+    border-radius: 15px;
+    border: 0px;
+}
+#regimg{
+    background-image: url('img/stars.jfif');
+    width: 450px;
+    height: 500px;
+    background-size: contain;
+}
+#ajax_formRegister{
+    width: 450px;
+    height: 500px;
+}
+#facebook{
+    background-color: #334F8E;
+    color: white;
+    font-size: 20px;
+    width: 250px;
+    height: 50px;
+    margin-left: 80px;
+    margin-bottom: 30px;
+    border: 0px;
+}
+#twitter{
+    background-color: #55ACF1;
+    color: white;
+    font-size: 20px;
+    width: 250px;
+    height: 50px;
+    margin-left: 80px;
+    margin-bottom: 30px;
+    border: 0px;
+}
+#google{
+    background-color: #DC4B38;
+    color: white;
+    font-size: 20px;
+    width: 250px;
+    height: 50px;
+    margin-left: 80px;
+    border: 0px;
+}
+.or{
+    border: 1px solid #3995DD;
+    background-color: #3995DD;
+    color: white;
+    font-size: 24px;
+    padding: 10px;
+    border-radius: 50%;
+    position: absolute;
+    margin-left: 30%;
+    margin-top: 17%;
+}
+#startreg{
+    color: grey;
+    cursor: pointer;
+}
+#resultform{
+    color: white;
+}
